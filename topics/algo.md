@@ -1,4 +1,4 @@
-# Algorithims
+# Algorithms
 
 ## Sorting
 
