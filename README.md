@@ -2,10 +2,10 @@
 
 ### Languages
 - [C++](./topics/cpp.md)
-- Java
+- [Java](https://github.com/FRC125/NU18)
 - Python
-- Racket
-- Matlab
+- [Racket](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
+- [Matlab](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
 
 ### Version Control
 - Git
@@ -30,5 +30,5 @@
 
 ### Engineering and Computer Science
 - [Introduction to Engineering](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
-- [Fundies of CS]((https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x))
+- [Fundies of CS](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
 - Discrete Structures
