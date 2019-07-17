@@ -1,8 +1,9 @@
 # Algorithms
 
-## Sorting
+### Sorting
 
-### Insertion Sort
+<details>
+  <summary>Insertion Sort</summary>
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands
 
 It takes an array as input and returns a new, sorted array
@@ -15,3 +16,4 @@ It takes an array as input and returns a new, sorted array
 - Worst Case O(n^2) comparisons
 - Best Case O(n) comparisions
 - Average O(n^2) comparisions
+</details>
