@@ -15,6 +15,17 @@
 - [Algorithms](./topics/algo.md)
 - Data Structures
 
+# Software
+
+### CAD
+- [SolidWorks](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
+- [AutoCAD](https://drive.google.com/open?id=1O4M74ij0QHjcg0mW2eaN0OY_kWPRWV7x)
+
+### Operating Systems
+- Windows
+- macOS
+- Ubuntu Linux
+
 ### IT
 - [ResNet](https://rrc.neu.edu)
 
