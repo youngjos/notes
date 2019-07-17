@@ -12,7 +12,7 @@
 
 ### Computer Science
 - Discrete Structures
-- Algorithms
+- [Algorithms](./topics/algo.md)
 - Data Structures
 
 ### IT
