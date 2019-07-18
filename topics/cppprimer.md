@@ -86,11 +86,3 @@ constexpr is used for variables that are constant
 const int *p = nullptr; // p is a pointer to a constint
 constexpr int *q = nullptr; // q is a constpointer to int
 ```
-
-
-
-
-
-
-
-```
