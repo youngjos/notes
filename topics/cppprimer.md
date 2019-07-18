@@ -2,6 +2,8 @@
 
 ## Compound Types
 
+![](../img/references.png)
+
 ### References
 
 A reference is a type that refers to another type 
@@ -35,4 +37,9 @@ double *dp1 = &dval; // double pointer holding the address of dval
 double *dp2 = dp1; // double pointer
 int *ip3 = dp1; // error: bad types
 ip3 = &dval // error: double address can not be assigned to int points
+
+myvar == 25 // true
+&myvar == 1776 // true
+foo == 1776 // true
+*foo == 25 // true
 ```
