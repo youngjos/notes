@@ -43,3 +43,54 @@ myvar == 25; // true
 foo == 1776; // true
 *foo == 25; // true
 ```
+
+## const and constexrp
+
+### General
+
+```c++
+const int kVal = 512; //  defines kVal as a constant, trying to change kVal will result in an error
+const int kVal2; // error: must initialize a constant
+```
+
+### const and references
+
+```c++
+const int ci = 1024; // constant integer
+const int &r1 = ci; // const reference to to ci
+r1 = 512; // error: reference is a constant
+int &r2 = c1; // error: non const reference to const object
+
+int i = 256;
+const int &r3 = i; // bound to i, but can not be used to change i
+```
+
+### const and pointers
+
+```c++
+const double pi = 3.14; // constant double
+double *ptr = &pi; // error: ptr is a plain pointer
+const double *cptr = &pi; // points to pi
+*cptr = 42 // error: cptr can not be used to change pi
+```
+
+### constexpr
+
+constexpr is constant expression and const itself is constexpr
+
+constexpr is used for variables that are constant
+
+#### constexpr and pointers
+
+```c++
+const int *p = nullptr; // p is a pointer to a constint
+constexpr int *q = nullptr; // q is a constpointer to int
+```
+
+
+
+
+
+
+
+```
