@@ -86,3 +86,34 @@ constexpr is used for variables that are constant
 const int *p = nullptr; // p is a pointer to a constint
 constexpr int *q = nullptr; // q is a constpointer to int
 ```
+
+## Dealing with types
+
+### type aliasing using typedef
+
+```c++
+typedef double wages; // wages is now a synonym for double
+typedef double base, *p; // base is now a synonym for double, p for double*
+
+wages hourly, weekly; // same as double hourly, weekly;
+```
+
+### auto type specifier
+
+we can let the compiler figure out what type using auto
+
+```c++
+auto i = 0; // i initialized to type int
+auto sz = 0, pi = 3.14; // error: inconsistent types
+```
+
+### decltype type specifier
+
+decltype is used to define a variable using the output of an expression
+
+```c++
+decltype(f()) sum = x; // sum has whatever type f returns
+
+const int ci = 0;
+decltype(ci) x = 0; // x has type of ci
+```
