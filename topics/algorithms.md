@@ -1,7 +1,7 @@
 # Algorithms
 
-### Searching
-### Sorting
+## Searching
+## Sorting
 
 <details>
   <summary>Insertion Sort</summary>
