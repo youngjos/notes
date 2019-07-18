@@ -46,6 +46,15 @@ foo == 1776; // true
 *foo == 25; // true
 ```
 
+```c++
+int ival = 512;
+int *pointer = &ival; // integer pointer to address of ival
+cout << *pointer << endl; // prints 512
+cout << pointer << endl; // prints address
+cout << &ival << endl; // prints address
+*pointer = 1024;
+cout << ival << endl; // prints 1024
+```
 ## const and constexrp
 
 ### General
