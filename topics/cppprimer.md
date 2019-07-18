@@ -21,3 +21,18 @@ int &refval3 = 10; // error: must initialize to an object
 double dval;
 int &refval4 = dval // error: must initialize to an object of same type
 ```
+
+### Pointers
+
+A pointer points to another type
+
+```c++
+int *ip1; // integer pointer
+int ival = 42;
+int *ip2 = &ival; // integer pointer holding the address of ival
+double dval;
+double *dp1 = &dval; // double pointer holding the address of dval
+double *dp2 = dp1; // double pointer
+int *ip3 = dp1; // error: bad types
+ip3 = &dval // error: double address can not be assigned to int points
+```
